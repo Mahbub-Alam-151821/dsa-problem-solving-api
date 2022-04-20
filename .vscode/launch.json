@@ -4,16 +4,14 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-        
         {
             "name": ".NET Core Launch (web)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/net6.0/dsa-problem-solving-api.dll",
+            "program": "${workspaceFolder}/dsa-problem-solving-api/bin/Debug/net6.0/dsa-problem-solving-api.dll",
             "args": [],
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/dsa-problem-solving-api",
             "stopAtEntry": false,
             "serverReadyAction": {
                 "action": "openExternally",
